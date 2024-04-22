@@ -38,48 +38,62 @@
 
                 <h1>You know you want to</h1>
 
+                <br>
+
                 <h1>Let's do this!</h1>
+    
                 <p>Required fields contain *</p>
+
+               
 
                 <div class="names">
 
-                 <label for="first_name">FIRST NAME *
-                    <input type="text" id="first_name" name="first_name" required/>
-                 </label>
+                   
+                 <div class="inner_left">
 
+                  <label for="first_name">FIRST NAME *
+                    <input type="text" id="first_name" name="first_name" placeholder="Leon" required/>
+                  </label>
+
+
+                  <label for="email">EMAIL *     
+                    <input type="email" id="email" name="email" placeholder="must contain @" required/>
+                  </label>
+
+                  <label for="password">PASSWORD *
+                    <input type="password" id="password" name="password" required/>
+                  </label>
+                 </div>
+
+
+                 <div class="inner_right">
                  <label for="last_name">LAST NAME *
-
-                    <input typte="text" id="last_name" name="last_name" required/>
+                    <input typte="text" id="last_name" name="last_name" placeholder="Saracini" required/>
                  </label>
 
                  <br>
-
-                 <label for="email">EMAIL *
-
-                    <input type="email" id="email" name="email" required/>
-                 </label>
 
                  <label for="phone">PHONE (Optional)
-
-                    <input type="tel" id="phone" name="phone"/>
-                
+                    <input type="tel" id="phone" name="phone"/>             
                  </label>
                  <br>
+                              
 
-                 <label for="password">PASSWORD *
-
-                    <input type="password" id="password" name="password" required/>
-                 </label>
+                  <label for="passconf">CONFIRM PASSWORD *
+                    <input type="password" id="passconf" name="passconf"/>
+                  </label>
+                 </div>
 
                 </div>
 
+                <br>
                 <br>
 
                 <div class="button">
 
                     <button type="submit">Create account</button>
 
-                    <p>Already have an account? Log in here</p>
+                    <p>Already have an account? Log in <a href="https://dictionary.cambridge.org/dictionary/english/log-in">here</a></p>
 
                 </div>
            

@@ -1,41 +1,158 @@
 .img {
     height: 70px;
     width: 70px;
+    margin-left: 50px;
+    margin-right: 20px;
+    opacity: 0.8;
 }
 
 .main {
     display: flex;
+    margin-top: 50px;
     
 }
 
 .left {
 
     width: 350px;
+    height: 700px;
     background-image: url(studio-dekorasyon-vngzm4P2BTs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   
 }
 
 .banner {
-    align-items:end;
+    display: flex;
+    height: 120px;
+    align-items:center;
     margin-top: 90px;
     font-style:normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: Arial, sans-serif,'Franklin Gothic Medium', 'Arial Narrow'; 
     font-size: 350%;
-    background-color: aquamarine;
+    background-color: rgb(9, 90, 13, 0.8);
+    color: white;
 }
 
 body {
-    background-color: blue;
+    background-color: rgb(157, 157, 230);
 }
+ 
+h1 { 
+    margin-left: 20px; 
+} 
+
+p { 
+    margin-left: 20px; 
+} 
 
 .right {
     background-color: azure;
+    width: 800px;
+    
 }
 
 .backimg {
     width: 350px;
     
 }
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.inner_left {
+    width: 150px;
+    margin-left: 20px;
+    
+}
+
+.inner_right {
+
+    width: 200px;
+    margin-left: 100px;
+}
+
+
+#first_name {
+    margin-bottom: 30px;
+     
+    
+}
+
+
+#last_name {
+
+    margin-bottom: 30px;
+    
+}
+
+
+#email {
+    margin-bottom: 30px;
+}
+
+#phone {
+    margin-bottom: 30px;
+}
+
+button {
+     
+    background-color: rgb(33, 124, 94);
+    height: 40px;
+    width: 170px;
+    border-radius: 5%;
+    color: white;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 20px;;
+}
+
+
+.button {
+    background-color: rgb(230, 238, 236);
+    height: 217px;
+    border-color: brown
+   
+}
+
+
+
+
+
+
+
+/*
+
+#last_name, label {
+    margin-left: 20px;
+}
+
+
+#password {
+
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 <img src="studio-dekorasyon-vngzm4P2BTs-unsplash.jpg" class="backimg"/>
