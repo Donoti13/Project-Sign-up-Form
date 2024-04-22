@@ -1,4 +1,42 @@
 .img {
-    height: 200px;
-    width: 210px;
+    height: 70px;
+    width: 70px;
 }
+
+.main {
+    display: flex;
+    
+}
+
+.left {
+
+    width: 350px;
+    background-image: url(studio-dekorasyon-vngzm4P2BTs-unsplash.jpg);
+  
+}
+
+.banner {
+    align-items:end;
+    margin-top: 90px;
+    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 350%;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: blue;
+}
+
+.right {
+    background-color: azure;
+}
+
+.backimg {
+    width: 350px;
+    
+}
+
+/*
+<img src="studio-dekorasyon-vngzm4P2BTs-unsplash.jpg" class="backimg"/>
+*/
